@@ -35,6 +35,13 @@ void print_array(const int *array, size_t size);
 void selection_sort(int *array, size_t size);
 
 /**
+ * quick_sort - sorts an array of integers in ascending order using Quick sort
+ * @array: pointer to the array
+ * @size: size of the array
+ */
+void quick_sort(int *array, size_t size);
+
+/**
  * print_list - prints a doubly linked list
  * @list: pointer to the head of the list
  */
