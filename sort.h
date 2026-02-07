@@ -52,5 +52,6 @@ void print_list(const listint_t *list);
  * @list: pointer to the head of the list
  */
 void insertion_sort_list(listint_t **list);
+void swap(int *a,int *b)
 
 #endif /* SORT_H */
